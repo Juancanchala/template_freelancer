@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- ...head sin cambios principales... -->
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; }
+    .card {
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-6px) scale(1.02);
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    }
+    .card img {
+      transition: transform 0.3s ease;
+    }
+    .card:hover img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="py-20 bg-white" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center text-indigo-700 mb-12">Proyectos destacados</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1581091012184-7f3a2781f22b?auto=format&fit=crop&w=800&q=80" alt="Rebranding StudioVibe" class="w-full h-48 object-cover">
+          <div class="p-5">
+            <h4 class="text-xl font-semibold text-indigo-600 mb-2">Rebranding para StudioVibe</h4>
+            <p class="text-sm text-gray-600">Rediseño completo de identidad visual, sitio web responsivo y piezas gráficas para redes sociales.</p>
+          </div>
+        </div>
+        <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1603575448360-84b6c933971f?auto=format&fit=crop&w=800&q=80" alt="Landing Festival Creativo" class="w-full h-48 object-cover">
+          <div class="p-5">
+            <h4 class="text-xl font-semibold text-indigo-600 mb-2">Landing Page – Festival Creativo</h4>
+            <p class="text-sm text-gray-600">Diseño de landing page con integración de formulario, estilo vibrante y enfoque visual para eventos.</p>
+          </div>
+        </div>
+        <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1532619675605-1d46a0e9962b?auto=format&fit=crop&w=800&q=80" alt="Manual de Marca VerdeRaíz" class="w-full h-48 object-cover">
+          <div class="p-5">
+            <h4 class="text-xl font-semibold text-indigo-600 mb-2">Manual de marca para VerdeRaíz</h4>
+            <p class="text-sm text-gray-600">Construcción de guía de estilo, logotipo, paleta cromática y componentes de identidad visual ecológica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESTO DEL CONTENIDO SIN CAMBIOS -->
+  <!-- ... -->
+</body>
+</html>
