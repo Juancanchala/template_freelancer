@@ -25,6 +25,3 @@ Diseño web profesional para freelancers, diseñadores, creativos y consultores 
 
 ## 📦 Cómo usar
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tuusuario/template-freelancer.git
